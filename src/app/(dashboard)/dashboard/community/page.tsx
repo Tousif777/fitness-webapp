@@ -1,6 +1,7 @@
 'use client';
 
-import { Users, MessageSquare, Heart, Share2, Award, ChevronRight } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { MessageCircle, Heart, Share2, Award, ChevronRight } from 'lucide-react';
 
 const communityPosts = [
   {
@@ -114,7 +115,7 @@ export default function CommunityPage() {
                       <span>{post.likes}</span>
                     </button>
                     <button className="flex items-center space-x-2 hover:text-blue-400">
-                      <MessageSquare className="h-5 w-5" />
+                      <MessageCircle className="h-5 w-5" />
                       <span>{post.comments}</span>
                     </button>
                     <button className="flex items-center space-x-2 hover:text-blue-400">

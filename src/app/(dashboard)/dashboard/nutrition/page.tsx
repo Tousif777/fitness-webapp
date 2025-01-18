@@ -1,6 +1,7 @@
 'use client';
 
-import { Apple, Coffee, Pizza, Utensils, Plus, ChevronRight } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { Coffee, Pizza, Utensils, Plus } from 'lucide-react';
 
 const meals = [
   { name: 'Breakfast', time: '8:00 AM', calories: 450, icon: Coffee },
@@ -139,6 +140,10 @@ export default function NutritionPage() {
           ))}
         </div>
       </div>
+
+      <p className="text-gray-300 mb-6">
+        Here&apos;s your nutrition summary for today. Stay on track with your goals!
+      </p>
     </div>
   );
 } 
