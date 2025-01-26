@@ -204,10 +204,10 @@ export default function Home() {
         >
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 text-center">
             {[
-              { value: '10K+', label: 'Active Users' },
-              { value: '500+', label: 'Workouts' },
-              { value: '95%', label: 'Success Rate' },
-              { value: '24/7', label: 'Support' },
+              { value: "10K+", label: "Active Users" },
+              { value: "500+", label: "Workouts" },
+              { value: "95%", label: "Success Rate" },
+              { value: "24/7", label: "Support" },
             ].map((stat, index) => (
               <motion.div
                 key={stat.label}

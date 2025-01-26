@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Dumbbell, Clock, Flame, ChevronRight, Plus, Filter, Search } from 'lucide-react';
+import { Dumbbell, Clock, Flame, Plus, Filter, Search } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 
 const workoutCategories = [

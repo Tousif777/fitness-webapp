@@ -1,6 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { MessageCircle, Heart, Share2, Award, ChevronRight } from 'lucide-react';
 
 const communityPosts = [

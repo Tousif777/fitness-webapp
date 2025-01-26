@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { Timer, CheckCircle, ChevronLeft, Play, Pause, RotateCcw } from 'lucide-react';
+import { CheckCircle, ChevronLeft, Play, Pause, RotateCcw } from 'lucide-react';
 import Link from 'next/link';
 import { use } from 'react';
 import Image from 'next/image';

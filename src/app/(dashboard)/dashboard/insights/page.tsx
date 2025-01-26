@@ -1,6 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { Brain, TrendingUp, Target, Zap, ChevronRight, BarChart3 } from 'lucide-react';
 
 const insights = [
