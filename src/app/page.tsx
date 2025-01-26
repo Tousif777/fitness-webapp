@@ -333,7 +333,7 @@ export default function Home() {
                 Start Your Fitness Journey Today
               </h2>
               <p className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
-                Join thousands of members who have transformed their lives with FitTrack Pro&apos;s personalized fitness experience.
+                Join thousands of members who have transformed their lives with FitTrack Pro personalized fitness experience.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link 

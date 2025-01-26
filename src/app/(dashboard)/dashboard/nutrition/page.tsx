@@ -141,7 +141,7 @@ export default function NutritionPage() {
       </div>
 
       <p className="text-gray-300 mb-6">
-        Here&apos;s your nutrition summary for today. Stay on track with your goals!
+        Here is your nutrition summary for today. Stay on track with your goals!
       </p>
     </div>
   );
