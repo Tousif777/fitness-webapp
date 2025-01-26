@@ -204,10 +204,10 @@ export default function Home() {
         >
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 text-center">
             {[
-              { value: "10K+", label: "Active Users" },
-              { value: "500+", label: "Workouts" },
-              { value: "95%", label: "Success Rate" },
-              { value: "24/7", label: "Support" },
+              { value: '10K+', label: 'Active Users' },
+              { value: '500+', label: 'Workouts' },
+              { value: '95%', label: 'Success Rate' },
+              { value: '24/7', label: 'Support' },
             ].map((stat, index) => (
               <motion.div
                 key={stat.label}
@@ -304,7 +304,7 @@ export default function Home() {
                       <p className="text-gray-400">{testimonial.role}</p>
                     </div>
                   </div>
-                  <p className="text-gray-300 italic">"{testimonial.quote}"</p>
+                  <p className="text-gray-300 italic">{testimonial.quote}</p>
                 </div>
               </motion.div>
             ))}
@@ -333,7 +333,7 @@ export default function Home() {
                 Start Your Fitness Journey Today
               </h2>
               <p className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
-                Join thousands of members who have transformed their lives with FitTrack Pro's personalized fitness experience.
+                Join thousands of members who have transformed their lives with FitTrack Pro&apos;s personalized fitness experience.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link 

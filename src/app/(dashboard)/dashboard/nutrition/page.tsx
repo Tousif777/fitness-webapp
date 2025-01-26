@@ -1,6 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { Coffee, Pizza, Utensils, Plus } from 'lucide-react';
 
 const meals = [
