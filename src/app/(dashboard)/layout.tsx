@@ -94,7 +94,7 @@ export default function DashboardLayout({
         </div>
 
         {/* Main content */}
-        <div className="lg:pl-64">
+        <div className="lg:pl-72">
           {/* Top bar */}
           <div className="sticky top-0 z-40 flex items-center gap-4 px-4 py-4 bg-gray-800/80 backdrop-blur-sm lg:hidden">
             <button
@@ -108,11 +108,11 @@ export default function DashboardLayout({
           </div>
           
           {/* Page content */}
-          <main className="py-6">
+          <main className="p-6">
             {children}
           </main>
         </div>
       </div>
     </ClientProvider>
   );
-} 
+}
