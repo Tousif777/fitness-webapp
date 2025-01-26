@@ -82,7 +82,7 @@ export default function DashboardPage() {
     <div>
       <div className="mb-8">
         <h1 className="text-2xl font-semibold text-white">Welcome back!</h1>
-        <p className="text-gray-400">Here is an overview of your fitness journey</p>
+        <p className="text-gray-400">Here&apos;s an overview of your fitness journey</p>
       </div>
 
       {/* Quick Stats */}
